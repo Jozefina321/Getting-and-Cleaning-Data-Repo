@@ -1,10 +1,10 @@
 # CODE BOOK OF THE COURSERA DATA PROJECT
 
-# SHORT DESCRIPTION OF THE AIM
+# Short description of the aim
 
 This Code Book serves to describe the main steps and processes that were conducted in the script calles `run_analysis.R` as a part of the Final Assignment within the course Getting and Cleaning Data.
 
-# DATA DESCRIPTION
+# Data description
 Data set contains information about three groups of data and activity_labels as well. The data could be devided into 3 groups as mentioned as follows:
 
 * `Activity`: Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
@@ -51,13 +51,13 @@ Based on the information before, we can split the files into three groups:
 * `Subject`: `subject_train.txt`, `subject_test.txt`    
 * `Features`: `X_train.txt`, `X_test.txt`
 
-# DOWNLOADING AND READING DATA as the first part of the script
+# Downloading and reading data as the first part of the script
 
 The data was download from the following web: 
 `https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip`through `fileUrl` function and subsequently unzipped.
 Reading the Activity, Subject and Features Data with `read.table()` function.
 
-# PROCESSING THE DATA as the second part of the script
+# Processing the data as the second part of the script
 
 `library(plyr)`
 1. Merges the training and the test sets to create one data set.
@@ -78,24 +78,24 @@ Reading the Activity, Subject and Features Data with `read.table()` function.
  a) To compute the mean for both subject and activity variable
  b) Create the tidy data
 6. To look at the tidy data we can see the following names of the columns:
-*`Subject` 
-*`Activity` 
-*`TimeBodyAccelerometer-Mean()-X` 
-*`TimeBodyAccelerometer-Mean()-Y` 
-*`TimeBodyAccelerometer-Mean()-Z` 
-*`TimeBodyAccelerometer-STD()-X` 
-*`TimeBodyAccelerometer-STD()-Y` 
-*`TimeBodyAccelerometer-STD()-Z` 
-*`TimeGravityAccelerometer-Mean()-X` 
-*`TimeGravityAccelerometer-Mean()-Y` 
-*`TimeGravityAccelerometer-Mean()-Z` 
-*`TimeGravityAccelerometer-STD()-X` 
-*`TimeGravityAccelerometer-STD()-Y` 
-*`TimeGravityAccelerometer-STD()-Z` 
-*`TimeBodyAccelerometerJerk-Mean()-X` 
-*`TimeBodyAccelerometerJerk-Mean()-Y` 
-*`TimeBodyAccelerometerJerk-Mean()-Z` 
-*`TimeBodyAccelerometerJerk-STD()-X` 
-*`TimeBodyAccelerometerJerk-STD()-Y` 
-*`TimeBodyAccelerometerJerk-STD()-Z` 
-*`...`
+* `Subject` 
+* `Activity` 
+* `TimeBodyAccelerometer-Mean()-X` 
+* `TimeBodyAccelerometer-Mean()-Y` 
+* `TimeBodyAccelerometer-Mean()-Z` 
+* `TimeBodyAccelerometer-STD()-X` 
+* `TimeBodyAccelerometer-STD()-Y` 
+* `TimeBodyAccelerometer-STD()-Z` 
+* `TimeGravityAccelerometer-Mean()-X` 
+* `TimeGravityAccelerometer-Mean()-Y` 
+* `TimeGravityAccelerometer-Mean()-Z` 
+* `TimeGravityAccelerometer-STD()-X` 
+* `TimeGravityAccelerometer-STD()-Y` 
+* `TimeGravityAccelerometer-STD()-Z` 
+* `TimeBodyAccelerometerJerk-Mean()-X` 
+* `TimeBodyAccelerometerJerk-Mean()-Y` 
+* `TimeBodyAccelerometerJerk-Mean()-Z` 
+* `TimeBodyAccelerometerJerk-STD()-X` 
+* `TimeBodyAccelerometerJerk-STD()-Y` 
+* `TimeBodyAccelerometerJerk-STD()-Z` 
+* `...`
