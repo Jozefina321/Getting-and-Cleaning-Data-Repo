@@ -43,3 +43,8 @@ Reading the Activity, Subject and Features Data with `read.table()` function.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
  * Computing the mean for both `Subject` and `Activity` variable
  * Create the tidy data with the name `Mytidydata.txt`
+
+This repository contains the following files:
+* `CodeBook.md`: information about data and variable description and tidy data structure
+* `README.md`: this file containing information about how all of the scripts work and how they are connected
+* `run_analysis.R`: the R script of the project
