@@ -25,7 +25,7 @@ Reading the Activity, Subject and Features Data with `read.table()` function.
 1. Merges the training and the test sets to create one data set.
  * Joing together all variables that belong together based on the rows binding, i.e., `Activity`, `Subject`, `Features`
  * To add a corresponding name to the group of data
- * To merge all relevant columns together into one data set
+ * To merge all relevant columns together into one data set by row binding
  
 2. Extracts only the measurements on the `mean` and `standard deviation` for each measurement.
  * As we are interested only in the mean and standard deviation, we subset only the relevant names of features
@@ -41,5 +41,5 @@ Reading the Activity, Subject and Features Data with `read.table()` function.
  * Attribute with descriptive variable names with `for()` function
  
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
- * Computing the mean for both subject and activity variable
+ * Computing the mean for both `Subject` and `Activity` variable
  * Create the tidy data with the name `Mytidydata.txt`
