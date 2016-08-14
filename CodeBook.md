@@ -43,8 +43,8 @@ These signals were used to estimate variables of the feature vector for each pat
    * `fBodyGyroJerkMag`
 
 For the puproses of our project we will concentrate only on the 2 set of variables that were estimated from these signals: 
-`mean()`: Mean value
-`std()`: Standard deviation
+* `mean()`: Mean value
+* `std()`: Standard deviation
 
 Based on the information before, we can split the files into three groups:
 * `Activity`: `Y_trains.txt`, `Y_test.txt`              
@@ -79,6 +79,6 @@ To look at the tidy data we can see the following names of the columns:
 
 Properties of the tidy data set:
 
-`View(tidydata)`
-`str(tidydata)`
-`names(tidydata)`
+* `View(tidydata)`
+* `str(tidydata)`
+* `names(tidydata)`
